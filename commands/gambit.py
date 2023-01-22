@@ -116,7 +116,7 @@ def profit(num):
     embed.add_field(name='Bet 1', value=str(round(bet12)))
     embed.add_field(name='Bet 2', value=str(round(bet22)))
     embed.add_field(name='Tokens', value=tokens)
-    embed.set_footer(text='Swagit donations accepted @ kirtap')
+    embed.set_footer(text='Swagit donations accepted @kirtap')
     #webhook.send(embed=embed, content='<@&{}>'.format('526067036145844235'))
     # print('Best hedge is '+profit_name+' at '+str(profit_odds1)+'/'+str(profit_odds2) +
     #      ' '+format(max_profit, '.2%')+'\nhttps://app.gambitrewards.com/match/'+profit_id)
